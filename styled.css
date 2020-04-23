@@ -1,0 +1,96 @@
+main{
+	display:flex;
+	height:100%;
+	width:100%;
+	flex-direction: column;
+}
+.form-container{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	background-color:#2A3640;
+	height:90%;
+	width:100%;
+}
+.heading{
+	display:flex;
+	font-family: 'Bangers', cursive;
+	background-color:#090A0D;
+	color:#DFCC9E; 
+	width:100%;
+	justify-content:center;
+	height:50px;
+	align-items:center;
+	margin:0px;
+	box-shadow: 1px 5px #536473;
+}
+.box{
+	display: flex;
+/* 	height:80%; */
+	justify-content:center;
+}
+p{  
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  	font-family: 'Bangers', cursive;
+  	color:#DFCC9E; 
+}
+.survey-form{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:650px;
+	background-color:#536473; 
+	box-shadow: 10px 10px;
+	font-family: 'Bangers', cursive;
+	font-size:2em;
+}
+label{
+	padding:5px;
+	margin:5px;
+	display:flex; 
+	width:100%;
+	padding-left: 70px;
+}
+#textarea{
+	height:80px;
+	width:90%;
+}
+#submit{
+	height:50px;
+	width:90%;
+	border-radius: 0.1px;
+	box-shadow: 3px 3px;
+	font-family: 'Bangers', cursive;
+	background-color: #DFCC9E;
+	margin:10px;
+	font-size: 1em;
+}
+#square1, #list {
+	width:25px;
+	height:25px;
+	background-color: #DFCC9E;
+	align-items: center;
+	border-color: black;
+}
+#account{
+	height:2em;
+	width:2em;
+}
+.boxd{
+	width:90%;
+	height:35px; 
+	align-items:center;
+	background-color: #DFCC9E;
+	border-color: black;
+	font-size: .75em;
+	font-family: 'Yanone Kaffeesatz', sans-serif
+}
+#skill{
+	display:flex;
+	align-items: flex-start;
+}
+#skill-set input:checked{
+	background-color: #DFCC9E;
+}

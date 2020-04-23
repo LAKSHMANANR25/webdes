@@ -1,0 +1,58 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+<main>
+<header>
+<h1 id="title" class="heading">SURVEY</h1>
+</header>
+<link rel="stylesheet" type="text/css" href="styled.css">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Yanone+Kaffeesatz:wght@500;600&display=swap" rel="stylesheet">
+<body class="form-container">
+<p id="description">This is short survey for our information</p>
+<div class="box">
+<form id="survey-form" class="survey-form">
+	<label id="name-label" for="name">Name</label>
+		<input id="name" class="boxd" placeholder="Enter your name" type="text" required="">
+
+	<label id="email-label" for="email">Email</label>
+		<input id="email" class="boxd" placeholder="Enter your Email" type="email" required="">
+
+	<label for="number" id="number-label">Age	</label>
+		<input id="number" class="boxd" placeholder=" Enter your Age(min 12)" type="number" min="12" max="99" required="">
+
+	<label id="description" for="dropdown" required>What describes your role the best?</label>
+		<select  id="dropdown" class="boxd" type="option" placeholder="choose you role">
+			<option disabled selected value>Select current role</option>
+			<option class="boxd" id="student"> Student</option>
+			<option class="boxd" id="teacher"> Teacher</option>
+			<option class="boxd" id="Employee"> Part-Time Employee</option>
+			<option class="boxd" id="Employee"> Part-Time Employee</option>
+		</select>
+	<label for="account" required>Choose your type of account?
+		<input id="account" type="radio" name="account" value="Free">Free Trial
+		<input id="account" value="paid"type="radio" name="account">Paid		</label>
+	<label id="comment" for="textarea">Comments</label>
+		<textarea type="description" class="boxd" id="textarea" placeholder="Your Comments">
+  </textarea>
+	<br>
+  <div style="display:inline-block;">
+  <input type="checkbox" id="square1" value="cool" required>I am Not Robot
+  </div>
+  <div style="display: inline-block;">
+    <input type="checkbox" id="square1" value="yes">Can we e-mail regarding similar events</p>
+	</div>
+	<label id="skills" for="list">Whats on your skill stack?</label>
+	<div id="skill-set">
+		<div><input type="checkbox" id="list" value="Frontend">Front-End Devlopment</div>
+		<div><input type="checkbox" id="list" value="Backend">Back-End Development</div>
+		<div><input type="checkbox" id="list" value="Data">Data-Analysis</div>
+		<div><input type="checkbox" id="list" value="ML">Machine Learning</div>
+		<div><input type="checkbox" id="list" value="vision">Computer Vision</div>	
+	</div>
+	<button id="submit">SUBMIT</button>
+</form>
+</div>
+</body>
+</main>
+</html>
